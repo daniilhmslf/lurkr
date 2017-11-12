@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
+import { createStore } from 'redux';
+import { post } from './post';
 import logo from './logo.svg';
 import './App.css';
+
+
 
 class App extends Component {
   render() {
