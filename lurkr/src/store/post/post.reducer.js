@@ -1,7 +1,6 @@
-export default post = (initialState, action) => {
+export default function post(initialState = [], action) {
   switch (action) {
     default:
       return initialState;
-      break; 
   }  
 };
