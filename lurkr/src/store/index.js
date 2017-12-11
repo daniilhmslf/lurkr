@@ -1,3 +1,3 @@
-import post from './post';
+import post from './post/post.reducer';
 
 export default { post };
